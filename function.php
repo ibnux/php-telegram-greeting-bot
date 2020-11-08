@@ -2,6 +2,16 @@
 function kirimPesan($chat_id,$pesan){
     global $bot_api_key;
 
+    if(empty($chat_id)){
+        logIt("chat_id empty");
+        die("true");
+    }
+
+    if(empty($pesan)){
+        logIt("pesan empty");
+        die("true");
+    }
+
     $data = array(
         'chat_id' => $chat_id,
         'text' => $pesan,

@@ -1,4 +1,4 @@
 <?php
 logIt("unknown: ".$message);
-$txt =  "Tambahkan Akun Chatboot ini ke grup dan berikan akses Admin agar bisa mendapatkan pesan yang masuk";
+$txt =  "Tambahkan Akun Chatboot ini ke grup anda";
 kirimPesan($chat_id,$txt);

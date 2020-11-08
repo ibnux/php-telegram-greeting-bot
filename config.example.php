@@ -17,7 +17,7 @@ $hook_url     = 'https://'.$_SERVER['HTTP_HOST'].'/hook.php?'.$hook_key;
  * {room} for group title
  */
 
-$message = "Hi {name},
+$greeting = "Hi {name},
 Selamat datang di {room}
 Dari mana asalanya?
 profesinya apa?";
